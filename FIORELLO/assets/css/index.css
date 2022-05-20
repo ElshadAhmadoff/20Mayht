@@ -1,0 +1,51 @@
+nav {
+  font-family: 'Montserrat', sans-serif;
+  padding: 50px 0px;
+}
+
+nav .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 210px;
+}
+
+nav .left img {
+  width: 100%;
+}
+
+nav .right {
+  float: right;
+}
+
+nav .right .menu {
+  display: f;
+}
+
+nav .right .menu .a1 {
+  color: black;
+  text-decoration: none;
+  display: block !important;
+}
+
+nav .right li {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.9;
+  letter-spacing: 1px;
+}
+
+nav .right .li1, nav .right .li2 {
+  margin-left: 20px !important;
+}
+
+nav .right .li0, nav .right .li1 {
+  font-size: 19px !important;
+}
+
+nav .right .li1 i {
+  font-weight: bolder !important;
+}
+/*# sourceMappingURL=index.css.map */
