@@ -4,9 +4,6 @@ nav {
 }
 
 nav .left {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 210px;
 }
 
@@ -14,38 +11,39 @@ nav .left img {
   width: 100%;
 }
 
-nav .right {
-  float: right;
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 14%;
 }
 
-nav .right .menu {
-  display: f;
+nav ul .d1 .drop-menu {
+  display: none;
 }
 
-nav .right .menu .a1 {
+nav ul .d1 .drop-menu a {
+  display: block;
   color: black;
   text-decoration: none;
-  display: block !important;
 }
 
-nav .right li {
+nav ul .d1:hover .drop-menu {
+  display: block;
+}
+
+nav ul li {
   display: inline-block;
-  margin-left: 50px;
   font-size: 12px;
   font-weight: 500;
   opacity: 0.9;
   letter-spacing: 1px;
+  color: black;
+  margin-left: 50px;
 }
 
-nav .right .li1, nav .right .li2 {
-  margin-left: 20px !important;
-}
-
-nav .right .li0, nav .right .li1 {
-  font-size: 19px !important;
-}
-
-nav .right .li1 i {
-  font-weight: bolder !important;
+nav ul li a {
+  color: black;
+  text-decoration: none;
 }
 /*# sourceMappingURL=index.css.map */

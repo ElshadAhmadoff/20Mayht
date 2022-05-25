@@ -2,38 +2,51 @@ nav{
     font-family: 'Montserrat', sans-serif;
     padding: 50px 0px;
     .left{
-        display: flex;
         width: 210px;
         img{
             width: 100%;
         }
     }
-    .right{
-        float: right;
-        .menu{
-            display: f;
-            .a1{
-            color: black;
-            text-decoration: none;
-            display: block!important;
+    ul{
+        display: flex;
+        margin-left: 14%;
+        .d1{
+            .drop-menu{
+                display: none;
+                a{
+                    display: block;
+                    color: black;
+                    text-decoration: none;
+                }
             }
+            &:hover .drop-menu{
+                display: block;
+            }
+            .d2{
+                .drop-menu{
+                    display: none;
+                    a{
+                        display: block;
+                        color: black;
+                        text-decoration: none;
+                    }
+                }
+                &:hover .drop-menu{
+                    display: block;
+                }
         }
         li{
             display: inline-block;
-            margin-left: 50px;
             font-size: 12px;
             font-weight: 500;
             opacity: 0.9;
             letter-spacing: 1px;
-        }
-        .li1 ,.li2{
-            margin-left: 20px!important;  
-        }
-        .li0 ,.li1{
-            font-size: 19px!important;
-        }
-        .li1 i{
-            font-weight: bolder!important;
+            color: black;
+            margin-left: 50px;
+            a{
+            color: black;
+            text-decoration: none;
+            }    
         }
     }
 }
